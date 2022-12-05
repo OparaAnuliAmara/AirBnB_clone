@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-"""Module for City class."""
+"""Module for Review class."""
 
 from models.base_model import BaseModel
 
 
-class City(BaseModel):
-    """Class representing a City."""
-    state_id = ""
-    name = ""
+class Review(BaseModel):
+    """Class representing a Review."""
+    place_id = ""
+    user_id = ""
+    text = ""
